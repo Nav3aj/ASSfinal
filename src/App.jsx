@@ -13,11 +13,11 @@ function App() {
       })
   }, [])
 
-  if (loading) return <p>Loading...</p>
+  if (loading) return <p>loading......</p>
 
   return (
     <div>
-      <h1>Posts from API (By Navraj)</h1>
+      <h1>Posts from  (jsonplaceholder)API (By Navraj)</h1>
       {posts.map(post => (
         <div key={post.id} style={{border: "1px solid black", margin: "10px", padding: "10px", color: "green", borderBlockColor: "red"}}>
           <h3>{post.title}</h3>
